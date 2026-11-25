@@ -1,0 +1,1 @@
+Ce projet est une API développée avec **FastAPI**, reposant sur une architecture modulaire inspirée de **NestJS et Symfony**. Elle intègre une structure de base de données avec gestion des relations entre les entités. Cette architecture facilite la maintenance, favorise la réutilisabilité du code et permet une excellente évolutivité (*scalabilité*).
