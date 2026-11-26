@@ -7,7 +7,7 @@ from .repository import UserRepository
 from .service import UserService
 
 
-def get_user_service(
+def user_service(
     session: AsyncSession = Depends(get_db)
 ):
     repository = UserRepository(session)

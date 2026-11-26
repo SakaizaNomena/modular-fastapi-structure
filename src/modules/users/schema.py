@@ -1,5 +1,5 @@
 from pydantic import BaseModel, EmailStr
-
+from typing import Optional
 
 class UserCreate(BaseModel):
     name: str
@@ -10,3 +10,8 @@ class UserResponse(BaseModel):
     id: int
     name: str
     email: EmailStr
+
+
+class UserUpdate(BaseModel):
+    name: Optional[str]
+    email: Optional[EmailStr]
